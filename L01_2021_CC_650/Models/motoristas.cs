@@ -6,6 +6,6 @@ namespace L01_2021_CC_650.Models
     {
         [Key]
         public int motoristaId { get; set; }
-        public string nombreMotorista { get; set; }
+        public string? nombreMotorista { get; set; }
     }
 }
